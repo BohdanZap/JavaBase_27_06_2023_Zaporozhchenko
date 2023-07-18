@@ -31,5 +31,6 @@ public class Main {
         System.out.println("Загальний показник атаки обох династій = " + commonpower);
 
 
+
     }
 }
