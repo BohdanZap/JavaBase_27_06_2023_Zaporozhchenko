@@ -23,7 +23,7 @@ public class Main {
                 } else {
                     System.out.println("Try again. Attempts: " + --attempts);
                 } if (attempts == 0) {
-                 System.out.println("You loose");
+                 System.out.println("You loose!");
              }
             }
     }
