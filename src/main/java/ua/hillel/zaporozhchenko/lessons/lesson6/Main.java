@@ -13,8 +13,7 @@ public class Main {
         int attempts = 5;
          while (attempts > 0){
              int userNum = scan.nextInt();
-             if (scan.hasNextInt()) {
-                if (userNum == randomNum) {
+             if (userNum == randomNum) {
                     System.out.println("Congratulations! You won!");
                     break;
                 } else if (userNum > maxNum) {
@@ -26,9 +25,7 @@ public class Main {
                 } if (attempts == 0) {
                  System.out.println("You loose!");
              }
-            } else {
-                 System.out.println("Wrong data! Please enter a number");
-             }
-    } scan.close();
-}}
+            } scan.close();
+    }
+}
 
