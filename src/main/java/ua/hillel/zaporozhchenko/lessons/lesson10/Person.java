@@ -21,12 +21,24 @@ public class Person {
         personInfo(name1, secName1, city1, phone1);
         personInfo(name2, secName2, city2, phone2);
         personInfo(name3, secName3, city3, phone3);
+        System.out.println();
+
+        personInfo2(name1, secName1, city1, phone1);
+        personInfo2(name2, secName2, city2, phone2);
+        personInfo2(name3, secName3, city3, phone3);
 
     }
 
     static String personInfo(String name, String secName, String city, String phone) {
         System.out.println("Зателефонувати громадянинові " + name + " " + secName + " із міста " + city + " можна за номером " + phone);
-        return name; // secName, city, phone??
+        return name; // як повернути інші змінні secName, city, phone?
+    }
+
+    // V2
+    static String personInfo2(String name, String secName, String city, String phone) {
+        String str = "Зателефонувати громадянинові " + name + " " + secName + " із міста " + city + " можна за номером " + phone;
+        System.out.println(str);
+        return str;
     }
 }
 
