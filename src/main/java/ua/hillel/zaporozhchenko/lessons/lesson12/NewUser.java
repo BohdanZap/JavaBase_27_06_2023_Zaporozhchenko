@@ -37,7 +37,7 @@ public class NewUser {
         System.out.println("Name = " + name + '\n' + "Surname = " + surname + '\n' + "DOB = " + birthDay
                 + "." + birthMonth + "." + birthYear + '\n' + "Email = " + email + '\n' + "Phone = "
                 + phone + '\n' + "Weight = " + weight + '\n' + "Pulse = " + pulse + '\n' +
-                "Steps = " + countSteps + '\n' + "Age = " + age);
+                "Steps = " + countSteps + '\n' + "Age = " + getAge());
     }
 }
 
